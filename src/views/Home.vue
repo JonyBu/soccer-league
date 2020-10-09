@@ -1,6 +1,6 @@
 <template>
   <b-card class="mt-3">
-    <h3>NEXT MATCHES</h3>
+    <h3>NEXT MEETING</h3>
     <b-card-group deck class="mt-3">
       <b-card
         bg-variant="Default"

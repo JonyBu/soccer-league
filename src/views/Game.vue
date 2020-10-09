@@ -2,6 +2,7 @@
   <b-card class="mt-3">
     <b-container>
       <h3>GAME INFORMATION</h3>
+      Choose the address in the table to show the location on the map
     </b-container>
     <div class="mt-3">
       <b-table small striped hover :fields="fields" :items="games">
