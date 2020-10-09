@@ -1,6 +1,6 @@
 <template>
-  <b-card>
-    <h1>Registration Form</h1>
+  <b-card class="mt-3">
+    <h1>REGISTRATION FORM</h1>
     <div class="caja-flex">
       <section class="noticias">
         <form action="show_data.html" method="GET">

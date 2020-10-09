@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <b-container class="mt-3 mb-3">
-      <h3>About NYSL</h3>
+  <b-card class="mt-3">
+    <b-container class="mb-3">
+      <h3>ABOUT NYSL</h3>
       <b-card-text>
         We are a professional soccer and sports coaching organisation
       </b-card-text>
@@ -55,7 +55,7 @@
         facilities amongst the area’s best.
       </b-card-text>
     </b-card>
-  </div>
+  </b-card>
 </template>
 
 <script>

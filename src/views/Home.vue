@@ -1,6 +1,7 @@
 <template>
-  <div class="mt-3">
-    <b-card-group deck>
+  <b-card class="mt-3">
+    <h3>NEXT MATCHES</h3>
+    <b-card-group deck class="mt-3">
       <b-card
         bg-variant="Default"
         header="August 4"
@@ -29,7 +30,5 @@
     <b-container class="mt-5">
       <b-calendar block locale="en-US"></b-calendar>
     </b-container>
-
-      
-  </div>
+  </b-card>
 </template>
