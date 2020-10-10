@@ -2,10 +2,11 @@
   <b-card class="mt-3">
     <b-container class="mb-3">
       <h3>ABOUT NYSL</h3>
+      <hr>
       <b-card-text>
         We are a professional soccer and sports coaching organisation
       </b-card-text>
-    </b-container >
+    
     <b-card-group deck >
       <b-card title="Mission" :img-src="image1" img-alt="Image" img-top >
         <b-card-text>
@@ -55,6 +56,7 @@
         facilities amongst the area’s best.
       </b-card-text>
     </b-card>
+    </b-container >
   </b-card>
 </template>
 

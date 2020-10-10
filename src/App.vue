@@ -23,7 +23,7 @@
 
     <footer class="bg-dark text-white-50 mt-3">
       <div class="container text-center">
-        <small>© 2016 TGIF | All Rights Reserved</small>
+        <small>© 2020 TGIF | All Rights Reserved</small>
       </div>
     </footer>
   </div>

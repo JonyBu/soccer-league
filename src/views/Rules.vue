@@ -1,6 +1,7 @@
 <template>
   <b-card class="mt-3">
     <article class="text-center">
+      <hr>
       <h2>NORTHSIDE YOUTH SOCCER LEAGUE</h2>
       <h2>RULES OF PLAY & POLICIES</h2>
       <p>FIFA rules shall govern NYSL play except as modified herein</p>

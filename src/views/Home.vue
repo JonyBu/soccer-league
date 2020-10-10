@@ -1,6 +1,8 @@
 <template>
   <b-card class="mt-3">
+    <b-container>
     <h3>NEXT MEETING</h3>
+    <hr>
     <b-card-group deck class="mt-3">
       <b-card
         bg-variant="Default"
@@ -27,6 +29,8 @@
         >
       </b-card>
     </b-card-group>
+    </b-container>
+
     <b-container class="mt-5">
       <b-calendar block locale="en-US"></b-calendar>
     </b-container>
