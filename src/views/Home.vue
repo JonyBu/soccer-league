@@ -1,34 +1,34 @@
 <template>
   <b-card class="mt-3">
     <b-container>
-    <h3>NEXT MEETING</h3>
-    <hr>
-    <b-card-group deck class="mt-3">
-      <b-card
-        bg-variant="Default"
-        header="August 4"
-        class="text-center"
-        border-variant="dark"
-      >
-        <b-card-text>NYSL Fundraiser.</b-card-text>
-      </b-card>
-
-      <b-card
-        bg-variant="Default"
-        header="August 12"
-        class="text-center"
-        border-variant="dark"
-      >
-        <b-card-text>Season Kick-off: Meet the Teams.</b-card-text>
-      </b-card>
-
-      <b-card header="August 24" class="text-center" border-variant="dark">
-        <b-card-text
-          >First Game of the Season (Check Game Schdele for
-          details).</b-card-text
+      <h3>NEXT MEETING</h3>
+      <hr />
+      <b-card-group deck class="mt-3">
+        <b-card
+          bg-variant="Default"
+          header="August 4"
+          class="text-center"
+          border-variant="dark"
         >
-      </b-card>
-    </b-card-group>
+          <b-card-text>NYSL Fundraiser.</b-card-text>
+        </b-card>
+
+        <b-card
+          bg-variant="Default"
+          header="August 12"
+          class="text-center"
+          border-variant="dark"
+        >
+          <b-card-text>Season Kick-off: Meet the Teams.</b-card-text>
+        </b-card>
+
+        <b-card header="August 24" class="text-center" border-variant="dark">
+          <b-card-text
+            >First Game of the Season (Check Game Schdele for
+            details).</b-card-text
+          >
+        </b-card>
+      </b-card-group>
     </b-container>
 
     <b-container class="mt-5">
