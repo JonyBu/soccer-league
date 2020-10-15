@@ -1,3 +1,6 @@
+## Image Project
+![Captura](https://i.imgur.com/Fyuopni.jpeg)
+
 # soccerl-boostrapvue
 
 ## Project setup
@@ -18,5 +21,4 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Image Project
-![Captura](https://i.imgur.com/Fyuopni.jpeg) 
+
