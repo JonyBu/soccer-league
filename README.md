@@ -19,4 +19,4 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Image Project
-![Captura](https://imgur.com/Fyuopni) 
+![Captura](https://i.imgur.com/Fyuopni.jpeg) 
