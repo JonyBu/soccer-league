@@ -4,18 +4,48 @@
       <b-img :src="image" fluid />
     </div>
 
-    <b-navbar type="dark" variant="dark">
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item :to="{ name: 'Home' }">HOME</b-nav-item>
-        <b-nav-item :to="{ name: 'About' }">ABOUT NYSL</b-nav-item>
-        <b-nav-item :to="{ name: 'Game' }">GAME INFORMATION</b-nav-item>
-        <b-nav-item :to="{ name: 'Rules' }">RULES OF PLAY</b-nav-item>
-        <b-nav-item :to="{ name: 'Registration' }"
-          >REGISTRATION FORM</b-nav-item
-        >
-        <b-nav-item :to="{ name: 'Contact' }">CONTACT</b-nav-item>
-      </b-navbar-nav>
-    </b-navbar>
+    <div>
+      <b-navbar toggleable="sm" type="dark" variant="dark">
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+        <b-navbar-brand></b-navbar-brand>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav class="m-auto">
+            <b-nav-item :to="{ name: 'Home' }">
+              <b-button class="text-uppercase btn-sm" variant="outline-success"
+                >Home</b-button
+              >
+            </b-nav-item>
+            <b-nav-item :to="{ name: 'About' }">
+              <b-button class="text-uppercase btn-sm" variant="outline-success"
+                >About NYSL</b-button
+              >
+            </b-nav-item>
+            <b-nav-item :to="{ name: 'Game' }">
+              <b-button class="text-uppercase btn-sm" variant="outline-success"
+                >Game information</b-button
+              >
+            </b-nav-item>
+            <b-nav-item :to="{ name: 'Rules' }">
+              <b-button class="text-uppercase btn-sm" variant="outline-success"
+                >Rules of play</b-button
+              >
+            </b-nav-item>
+            <b-nav-item :to="{ name: 'Registration' }">
+              <b-button class="text-uppercase btn-sm" variant="outline-success"
+                >Registration form</b-button
+              >
+            </b-nav-item>
+            <b-nav-item :to="{ name: 'Contact' }">
+              <b-button class="text-uppercase btn-sm" variant="outline-success"
+                >Contact</b-button
+              >
+            </b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+    </div>
 
     <b-container>
       <router-view />
