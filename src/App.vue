@@ -13,32 +13,50 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="m-auto">
             <b-nav-item :to="{ name: 'Home' }">
-              <b-button class="text-uppercase btn-sm" variant="outline-success"
+              <b-button
+                class="text-uppercase btn-sm"
+                variant="outline-success"
+                block
                 >Home</b-button
               >
             </b-nav-item>
             <b-nav-item :to="{ name: 'About' }">
-              <b-button class="text-uppercase btn-sm" variant="outline-success"
+              <b-button
+                class="text-uppercase btn-sm"
+                variant="outline-success"
+                block
                 >About NYSL</b-button
               >
             </b-nav-item>
             <b-nav-item :to="{ name: 'Game' }">
-              <b-button class="text-uppercase btn-sm" variant="outline-success"
+              <b-button
+                class="text-uppercase btn-sm"
+                variant="outline-success"
+                block
                 >Game information</b-button
               >
             </b-nav-item>
             <b-nav-item :to="{ name: 'Rules' }">
-              <b-button class="text-uppercase btn-sm" variant="outline-success"
+              <b-button
+                class="text-uppercase btn-sm"
+                variant="outline-success"
+                block
                 >Rules of play</b-button
               >
             </b-nav-item>
             <b-nav-item :to="{ name: 'Registration' }">
-              <b-button class="text-uppercase btn-sm" variant="outline-success"
+              <b-button
+                class="text-uppercase btn-sm"
+                variant="outline-success"
+                block
                 >Registration form</b-button
               >
             </b-nav-item>
             <b-nav-item :to="{ name: 'Contact' }">
-              <b-button class="text-uppercase btn-sm" variant="outline-success"
+              <b-button
+                class="text-uppercase btn-sm"
+                variant="outline-success"
+                block
                 >Contact</b-button
               >
             </b-nav-item>
@@ -70,7 +88,6 @@ export default {
   },
 };
 </script>
-
 
 <style scoped>
 .bgi {
