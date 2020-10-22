@@ -10,6 +10,11 @@ export default new Vuex.Store({
   mutations: {
     changeValue(state, newValue) {
       state.value = newValue
+    },
+  },
+  getters: {
+    getValue: state => {
+      return state.value
     }
   },
   actions: {

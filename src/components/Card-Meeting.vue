@@ -21,9 +21,9 @@ export default {
     Header: "",
     Title: "",
   },
-  // computed: {
-  //   ...mapState(["value"]),
-  // },
+  computed: {
+    ...mapState(["value"]),
+  },
   methods: {
     ...mapMutations(["changeValue"]),
   },

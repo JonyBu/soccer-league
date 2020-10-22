@@ -3,7 +3,7 @@
     <b-container>
       <h3>NEXT MEETING</h3>
       <hr />
-      <b-car-text>Select the meeting to view it on the calendar </b-car-text>
+      <p>Select the meeting to view it on the calendar</p>
       <b-card-group deck class="mt-3">
         <CardMeeting
           DateMeeting="2020-08-04"
@@ -31,7 +31,7 @@
 
 <script>
 import CardMeeting from "@/components/Card-Meeting.vue";
-import { mapState } from "vuex";
+import { mapGetters, mapState } from "vuex";
 
 export default {
   name: "home",
@@ -39,7 +39,20 @@ export default {
     CardMeeting,
   },
   computed: {
-    ...mapState(["value"]),
+    // ...mapState(["value"]),
+    ...mapGetters({
+      valueFromStore : "getValue"
+    }),
+    value: {
+      get(){
+        return this.valueFromStore
+      },
+      set(newValue){
+        return newValue
+      }
+    },
+
   },
+  
 };
 </script>
